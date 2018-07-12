@@ -16,10 +16,10 @@ The class Feature is the label we want to predict which contains salary of a per
 
 1.2 Data Preprocess
 
-*Imputing Missing Values
+#Imputing Missing Values
  we have deleted the missing value which was given as "?" as they were in less percentage
 
-*Convert categorical values into numerical values.
+#Convert categorical values into numerical values.
 Method: Label Encoding
 
 1.3 Model Selection
@@ -27,7 +27,7 @@ Method: Label Encoding
 Logistic regression with imbalance data
 Overall Test Accuracy is 0.79.
 
-*Dealing with Imbalanced Data
+#Dealing with Imbalanced Data
 Salary Feature is unbalanced labeled. 
 The salary > 50k is around 30% and <= 50K is 70%.
 Method: SMOTE method 
